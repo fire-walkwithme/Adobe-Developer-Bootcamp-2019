@@ -7,5 +7,5 @@ public interface Repository<T> {
     Optional<T> findById(Long id);
     List<T> getAll();
     Long put(T item);
-    List<T> putAll(List<T> items);
+    List<Long> putAll(List<T> items);
 }
