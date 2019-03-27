@@ -1,4 +1,4 @@
-package com.procourier.repository.repository;
+package com.procourier.orders.repository;
 
 import com.procourier.model.Order;
 import com.procourier.model.repository.OrderRepository;

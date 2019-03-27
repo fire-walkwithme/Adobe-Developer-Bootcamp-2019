@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Buyer {
     private String name;
-    private String address;
+    private Address address;
 
-    public Buyer(String name, String address) {
+    public Buyer(String name, Address address) {
         this.name = Objects.requireNonNull(name);
         this.address = Objects.requireNonNull(address);
     }
@@ -16,7 +16,7 @@ public class Buyer {
         return name;
     }
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
@@ -24,7 +24,7 @@ public class Buyer {
         this.name = name;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 }
